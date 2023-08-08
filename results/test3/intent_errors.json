@@ -1,0 +1,26 @@
+[
+  {
+    "text": "tạm biệt bạn nhé",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.7745918035507202
+    }
+  },
+  {
+    "text": "see you again",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.44784462451934814
+    }
+  },
+  {
+    "text": "Học phí ngành truyền thông đa phương tiện ở trường đại học cần thơ là bao nhiêu tiền?",
+    "intent": "tuition",
+    "intent_prediction": {
+      "name": "curriculum",
+      "confidence": 0.7770297527313232
+    }
+  }
+]

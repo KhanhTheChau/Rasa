@@ -1,0 +1,101 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- ask_name
+- benchmark
+- career_opportunities
+- consultation
+- criterias
+- curriculum
+- dormitory
+- facilities
+- goodbye
+- greet
+- help
+- profile
+- review
+- thank
+- tuition
+- tuition_va_diem_chuan
+entities:
+- majors
+- university
+- name
+slots:
+  majors:
+    type: text
+    influence_conversation: true
+  university:
+    type: text
+    influence_conversation: true
+  name:
+    type: text
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: utter_greet
+  utter_goodbye:
+  - text: utter_goodbye
+  utter_thank:
+  - text: utter_thank
+  utter_consultation:
+  - text: utter_consultation
+  utter_ask_name:
+  - text: utter_ask_name + {name}
+  utter_help:
+  - text: utter_help
+  utter_benchmark:
+  - text: utter_benchmark + {majors} + {university}
+  utter_tuition:
+  - text: utter_tuition + {majors} + {university}
+  utter_default_fallback:
+  - text: utter_default
+  utter_curriculum:
+  - text: utter_curriculum + {majors} + {university}
+  utter_criterias:
+  - text: utter_criterias + {majors} + {university}
+  utter_review:
+  - text: utter_review + {university}
+  utter_profile:
+  - text: utter_profile + {university}
+  utter_facilities:
+  - text: utter_facilities + {university}
+  utter_dormitory:
+  - text: utter_dormitory + {university}
+  utter_career_opportunities:
+  - text: utter_career_opportunities + {university}
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default_fallback
+- utter_thank
+- utter_ask_name
+- utter_consultation
+- utter_help
+- utter_benchmark
+- utter_tuition
+- utter_curriculum
+- utter_criterias
+- utter_review
+- utter_profile
+- utter_dormitory
+- utter_facilities
+- utter_career_opportunities
+- action_greet
+- action_default_fallback
+- action_goodbye
+- action_thank
+- action_ask_name
+- action_consultation
+- action_help
+- action_benchmark
+- action_tuition
+- action_curriculum
+- action_criterias
+- action_review
+- action_profile
+- action_dormitory
+- action_facilities
+- action_career_opportunities

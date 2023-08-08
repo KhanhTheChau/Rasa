@@ -1,0 +1,250 @@
+[
+  {
+    "text": "bạn đâu rồi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8870447278022766
+    }
+  },
+  {
+    "text": "đâu rồi huynh đài",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7884345054626465
+    }
+  },
+  {
+    "text": "bạn đang làm gì thế",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9989585876464844
+    }
+  },
+  {
+    "text": "Có thể bạn giúp tôi giải quyết vấn đề này không?",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "consultation",
+      "confidence": 0.989149808883667
+    }
+  },
+  {
+    "text": "Tôi tên là Phạm Văn Đức, đang theo đuổi sự nghiệp trong lĩnh vực IT.",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.9974806904792786
+    }
+  },
+  {
+    "text": "Tôi cần một chút hướng dẫn, bạn có thể giúp tôi không?",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9451624751091003
+    }
+  },
+  {
+    "text": "Cho tôi biết những điểm mạnh và điểm yếu của Đại học Luật từ góc nhìn của bạn.",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.9998364448547363
+    }
+  },
+  {
+    "text": "Cho tôi thông tin về các hoạt động ngoại khóa và câu lạc bộ học thuật tại trường Đại học Giao thông vận tải.",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.6022212505340576
+    }
+  },
+  {
+    "text": "Xin cho biết về các khu vực tự học và thư viện tại trường Đại học Kinh tế Quốc dân Hà Nội.",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "career_opportunities",
+      "confidence": 0.6317437291145325
+    }
+  },
+  {
+    "text": "bạn có ở đó không",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.8365533947944641
+    }
+  },
+  {
+    "text": "Đã đến lúc phải nói lời chia tay",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.6536343693733215
+    }
+  },
+  {
+    "text": "hay đấy",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7583507299423218
+    }
+  },
+  {
+    "text": "Tôi thật sự đánh giá cao sự giúp đỡ của bạn",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.33740583062171936
+    }
+  },
+  {
+    "text": "Cho tôi thông tin về điểm chuẩn ngành khoa học máy tính tại trường đại học Bách khoa Đà Nẵng và những chỉ tiêu đánh giá khác mà tôi nên xem xét khi xét tuyển.",
+    "intent": "benchmark",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.931088387966156
+    }
+  },
+  {
+    "text": "Tôi đang xem xét ngành khoa học máy tính tại trường đại học Công nghệ Thông tin Hà Nội.",
+    "intent": "benchmark",
+    "intent_prediction": {
+      "name": "curriculum",
+      "confidence": 0.8636361956596375
+    }
+  },
+  {
+    "text": "Tôi muốn tìm hiểu về các chuyên ngành có trong ngành quản trị kinh doanh tại trường Đại học Kinh tế TP.HCM.",
+    "intent": "curriculum",
+    "intent_prediction": {
+      "name": "criterias",
+      "confidence": 0.32300901412963867
+    }
+  },
+  {
+    "text": "Hãy cho tôi biết về trang thiết bị và công nghệ giảng dạy tại trường Đại học Cần Thơ.",
+    "intent": "dormitory",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.9995802044868469
+    }
+  },
+  {
+    "text": "thank",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "ask_name",
+      "confidence": 0.9732256531715393
+    }
+  },
+  {
+    "text": "good",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9594880938529968
+    }
+  },
+  {
+    "text": "Làm ơn hỗ trợ tôi",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.9915024042129517
+    }
+  },
+  {
+    "text": "Tôi quan tâm đến chất lượng giảng dạy tại Đại học Khoa học Xã hội và Nhân văn, có thể bạn đưa ra một số đánh giá về điều này không?",
+    "intent": "review",
+    "intent_prediction": {
+      "name": "dormitory",
+      "confidence": 0.979911208152771
+    }
+  },
+  {
+    "text": "bot ơí ời ơi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.8365509510040283
+    }
+  },
+  {
+    "text": "goodbye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank",
+      "confidence": 0.66275554895401
+    }
+  },
+  {
+    "text": "Tôi gặp rắc rối và cần một số hướng dẫn",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "consultation",
+      "confidence": 0.9947060942649841
+    }
+  },
+  {
+    "text": "châu thế khanh",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.8797391653060913
+    }
+  },
+  {
+    "text": "Công Lí",
+    "intent": "ask_name",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.38910049200057983
+    }
+  },
+  {
+    "text": "Tôi cần một số lời khuyên, bạn có thể giúp không?",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.9293083548545837
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.23122982680797577
+    }
+  },
+  {
+    "text": "lô lô",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.34284093976020813
+    }
+  },
+  {
+    "text": "tắt đi",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.43270352482795715
+    }
+  },
+  {
+    "text": "Tôi đang đắn đo và cần ý kiến của bạn về việc chọn trường học.",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.9093204736709595
+    }
+  }
+]

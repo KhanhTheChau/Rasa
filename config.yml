@@ -1,0 +1,39 @@
+version: "2.0"
+language: vi
+
+pipeline:
+- name: components.tokenizers.VietnameseTokenizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: components.featurizers.FastTextFeaturizer
+  cache_dir: .cache/fasttext
+  file: cc.vi.300.bin
+- name: DIETClassifier
+  # dropout: 0.2
+  # hidden_layers_sizes:
+  #   - 256
+  #   - 128
+  constrain_similarities: True
+  # evaluate_on_number_of_examples: 50
+  # evaluate_every_number_of_epochs: 1
+  # checkpoint_model: True
+  # entity_recognition: "DIET"
+  epochs: 100
+  # model_confidence: "softmax"
+#   masking: true
+# - name: "EntitySynonymMapper"
+policies:
+  - name: MemoizationPolicy
+    # max_history: 5
+  - name: TEDPolicy
+    max_history: 2
+    epochs: 100
+    constrain_similarities: true
+  - name: FallbackPolicy
+    nlu_threshold: 0.4
+    core_threshold: 0.4
+    fallback_action_name: utter_default_fallback
+

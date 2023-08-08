@@ -1,0 +1,26 @@
+[
+  {
+    "text": "cho em hỏi là học phí ngành khoa học máy tính ở trường đại học Cần Thơ năm trước là bao nhiêu, có giữ nguyên hông hay là tăng?",
+    "intent": "tuition",
+    "intent_prediction": {
+      "name": "criterias",
+      "confidence": 0.8732270002365112
+    }
+  },
+  {
+    "text": "Tôi đang đắn đo và cần ý kiến của bạn về việc chọn trường học để tui phát triển tương lai sau này.",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.39179688692092896
+    }
+  },
+  {
+    "text": "thank",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5621852874755859
+    }
+  }
+]

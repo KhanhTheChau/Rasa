@@ -1,0 +1,26 @@
+[
+  {
+    "text": "tôi có công chuyện rồi",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "benchmark",
+      "confidence": 0.48067763447761536
+    }
+  },
+  {
+    "text": "Học phí ngành khoa học máy tính ở trường đại học Cần Thơ là bao nhiêu?",
+    "intent": "tuition",
+    "intent_prediction": {
+      "name": "criterias",
+      "confidence": 0.6262116432189941
+    }
+  },
+  {
+    "text": "Tôi đang đắn đo và cần ý kiến của bạn về việc chọn trường học.",
+    "intent": "consultation",
+    "intent_prediction": {
+      "name": "review",
+      "confidence": 0.6062673926353455
+    }
+  }
+]
