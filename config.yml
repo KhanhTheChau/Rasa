@@ -12,19 +12,10 @@ pipeline:
   cache_dir: .cache/fasttext
   file: cc.vi.300.bin
 - name: DIETClassifier
-  # dropout: 0.2
-  # hidden_layers_sizes:
-  #   - 256
-  #   - 128
-  constrain_similarities: True
-  # evaluate_on_number_of_examples: 50
-  # evaluate_every_number_of_epochs: 1
-  # checkpoint_model: True
-  # entity_recognition: "DIET"
   epochs: 100
-  # model_confidence: "softmax"
-#   masking: true
-# - name: "EntitySynonymMapper"
+  embedding_dimension: 20
+  constrain_similarities: true
+  use_masked_language_model: true
 policies:
   - name: MemoizationPolicy
     # max_history: 5
@@ -35,5 +26,5 @@ policies:
   - name: FallbackPolicy
     nlu_threshold: 0.4
     core_threshold: 0.4
-    fallback_action_name: utter_default_fallback
+    fallback_action_name: action_default_fallback
 
