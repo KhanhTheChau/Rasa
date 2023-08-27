@@ -59,5 +59,8 @@ stories:
   - intent: career_opportunities
   - action: action_career_opportunities
   story: career_opportunities
-  
+- steps:
+  - intent: comparison_school
+  - action: action_comparison_school
+  story: comparison_school
 version: '2.0'
