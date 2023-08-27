@@ -6,6 +6,7 @@ intents:
 - ask_name
 - benchmark
 - career_opportunities
+- comparison_school
 - consultation
 - criterias
 - curriculum
@@ -18,11 +19,12 @@ intents:
 - review
 - thank
 - tuition
-- tuition_va_diem_chuan
 entities:
 - majors
 - university
 - name
+- school1
+- school2
 slots:
   majors:
     type: text
@@ -33,39 +35,47 @@ slots:
   name:
     type: text
     influence_conversation: true
+  school1:
+    type: text
+    influence_conversation: true
+  school2:
+    type: text
+    influence_conversation: true
 responses:
   utter_greet:
-  - text: utter_greet
+  - text: ''
   utter_goodbye:
-  - text: utter_goodbye
+  - text: ''
   utter_thank:
-  - text: utter_thank
+  - text: ''
   utter_consultation:
-  - text: utter_consultation
+  - text: ''
   utter_ask_name:
-  - text: utter_ask_name + {name}
+  - text: ''
   utter_help:
-  - text: utter_help
+  - text: ''
   utter_benchmark:
-  - text: utter_benchmark + {majors} + {university}
+  - text: ''
   utter_tuition:
-  - text: utter_tuition + {majors} + {university}
+  - text: ''
   utter_default_fallback:
-  - text: utter_default
+  - text: ''
   utter_curriculum:
-  - text: utter_curriculum + {majors} + {university}
+  - text: ''
   utter_criterias:
-  - text: utter_criterias + {majors} + {university}
+  - text: ''
   utter_review:
-  - text: utter_review + {university}
+  - text: ''
   utter_profile:
-  - text: utter_profile + {university}
+  - text: ''
   utter_facilities:
-  - text: utter_facilities + {university}
+  - text: ''
   utter_dormitory:
-  - text: utter_dormitory + {university}
+  - text: ''
   utter_career_opportunities:
-  - text: utter_career_opportunities + {university}
+  - text: ''
+  utter_comparison_school:
+  - text: ''
 actions:
 - utter_greet
 - utter_goodbye
@@ -82,6 +92,7 @@ actions:
 - utter_profile
 - utter_dormitory
 - utter_facilities
+- utter_comparison_school
 - utter_career_opportunities
 - action_greet
 - action_default_fallback
@@ -99,3 +110,4 @@ actions:
 - action_dormitory
 - action_facilities
 - action_career_opportunities
+- action_comparison_school
